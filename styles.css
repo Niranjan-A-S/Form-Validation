@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar-container {
+  background-color: #000000;
+  display: flex;
+  height: 8vh;
+  padding-left: 5rem;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.navbar-heading {
+  color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+.navbar-button {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 20%;
+  margin-left: auto;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.navbar-button,
+.bi-search:hover {
+  cursor: pointer;
+}
+
+.bi-search {
+  margin: 1rem;
+  color: #ffffff;
+  padding: 0.5rem;
+  height: 2rem;
+}
+
+.bi-search:hover {
+  color: #6ebe49;
+}
+
+.main-container {
+  margin-left: 12rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.description-1 {
+  font-family: "Noto Sans", sans-serif;
+  color: #ffffff;
+  font-weight: normal;
+  margin-bottom: 0.1rem;
+}
+
+.description-2 {
+  font-family: "Noto Sans", sans-serif;
+  color: #ffffff;
+  font-size: 6vh;
+  font-weight: bolder;
+  margin-bottom: 0.1rem;
+  margin-top: 0.1rem;
+}
+
+.description-3 {
+  font-family: "Noto Sans", sans-serif;
+  color: #6ebe49;
+  font-weight: normal;
+  font-size: 2.7vh;
+}
+
+hr {
+  border: solid thin #6ebe49;
+  height: 0rem;
+  width: 4rem;
+  margin: 0 0;
+  background-color: #6ebe49;
+}
+
+.form-container {
+  /* display: flex;
+  justify-content: center; */
+  background-color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+  margin: 5rem;
+  width: 35em;
+  margin-top: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+legend {
+  align-self: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+input,
+select,
+textarea {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  outline: none;
+}
+
+input::placeholder {
+  color: #000000;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.checkbox-div1,
+.checkbox-div2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.7rem;
+  padding: 0.1rem;
+  font-weight: lighter;
+  margin: 0.5rem;
+}
+
+.form-button {
+  background-color: #6ebe49;
+  border: solid #6ebe49;
+  height: 4rem;
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: large;
+  margin: 1rem;
+}
+
+.form-button:hover {
+  cursor: pointer;
+}
+
+.checkbox:hover {
+  cursor: pointer;
+}
+
+.error {
+  border-color: #ff0000;
+  border-width: 2px;
+}
+
+.error-message {
+  display: block;
+  color: #ff0000;
+  font-size: 0.7rem;
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
